@@ -26,6 +26,9 @@ for index in range(0,len(studentDetails.split(","))):
     obje = Student.CommaNdHyphenSeprator(studentDetails,index)
     obje.showStudent()
 
-
+# from import_function import randomNamesGenerator as giveNames
+# namelist = giveNames(5,4)
+# for name in namelist:
+#     print(name)
 
 
